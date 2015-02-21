@@ -1,0 +1,9 @@
+
+<span class="title">Welcome!</span>
+
+
+<a href="calendar.aspx">» Calendar</a> - Know what I am up to...if you care
+<a href="heyjude.htm">» Hey Jude</a> - The story of the song "Hey Jude" by the Beatles
+<a href="gallery.aspx">» Pictures</a> - The pictures that I take
+<a href="contact.htm">» Contact</a> - How to contact me
+ 

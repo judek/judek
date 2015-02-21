@@ -1,0 +1,102 @@
+﻿BODY 		{ scrollbar-base-color: #BB0000 }
+
+a:link		{ color: #99CCFF; text-decoration: none }
+
+a:visited	{ color: #99CCFF; text-decoration: none }
+
+a:active	{ color: #000000; text-decoration: none }
+
+a:hover		{ color: #00FF00; text-decoration: none }
+
+
+a.clientlink:link		{ color: #FFCC99; text-decoration: none }
+
+a.clientlink:visited		{ color: #FFCC99; text-decoration: none }
+
+a.clientlink:active		{ color: #000000; text-decoration: none }
+
+a.clientlink:hover		{ color: #00FF00; text-decoration: none }
+
+
+
+TABLE 		{ COLOR: #F0F0F0; FONT: 12px arial, verdana, sans-serif; font-weight: bold }
+
+.copytext 	{ COLOR: #F0F0F0; FONT: 10px arial, verdana, sans-serif; font-weight: bold }
+
+.title 		{ color: #FFFFFF; font: 20px verdana, arial, sans-serif; letter-spacing: 5px; font-weight: bold }
+
+.subtitle 	{ color: #FFFFFF; font: 14px verdana, arial, sans-serif; letter-spacing: 5px; font-weight: bold }
+
+.smalltitle 	{ color: #FFFFFF; font: 12px verdana, arial, sans-serif; letter-spacing: 2px; font-weight: bold }
+
+.phonetitle 	{ color: #FFFFFF; font: 12px verdana, arial, sans-serif; letter-spacing: 2px; font-weight: bold }
+
+.list 		{ color: #FFFFFF; font: 11px verdana, arial, sans-serif; letter-spacing: 1px; font-weight: bold }
+
+.logo 		{ COLOR: #FFFFFF; FONT: 16px arial, verdana, sans-serif; letter-spacing: 2px; font-weight: bold }
+
+.just 		{text-align: justify;}
+
+#menu 		{ RIGHT: 15px; POSITION: absolute; TOP: 40px }
+
+
+.button 	{ background-color:#BB0000;
+		FONT-FAMILY: arial, verdana, helvetica, sans;
+		color: #FFFFFF;
+		font-size: 7pt;
+		height: 18px;
+		cursor:hand;
+		font-weight: bold;
+		text-align: center;
+		BORDER: #FFFFFF 1px solid }
+
+.buttonon 	{ background-image: url("picts/buttonon.gif");
+		background-color:#00FF00;
+		FONT-FAMILY: arial, verdana, helvetica, sans;
+		color: #BB0000;
+		font-size: 7pt;
+		height: 18px;
+		cursor:hand;
+		font-weight: bold;
+		text-align: center;
+		BORDER: #00FF00 1px solid }
+
+
+.searchbutton 	{ background-color:#FF0000;
+		FONT-FAMILY: arial, verdana, helvetica, sans;
+		color: #FFFFFF;
+		font-size: 7pt;
+		height: 18px;
+		width: 50px;
+		cursor:hand;
+		font-weight: bold;
+		text-align: center;
+		BORDER: #FFFFFF 1px solid }
+
+
+.shadeform	{ FONT: 13px arial, verdana, sans-serif;
+		background-image: url("picts/shadeform.gif");
+		text-align: left;
+		WIDTH: 220PX;
+		BORDER: #000000 1px solid}
+
+.textarea	{ FONT: 13px arial, verdana, sans-serif;
+		text-align: left;
+		WIDTH: 300PX;
+		HEIGHT: 125PX;
+		BORDER: #000000 1px solid}
+
+.dropdown 	{ COLOR: #333333;
+		WIDTH: 220PX;
+		FONT: 11px geneva, verdana, arial, sans-serif}
+
+
+
+.searchform 	{ background-image: url("picts/searchform.jpg"); WIDTH: 125PX; HEIGHT: 20PX; FONT: 11px arial, georgia, "Times New Roman", sans-serif;
+		BORDER-BOTTOM: #000000 1px solid;
+		BORDER-LEFT: #000000 1px solid;
+		BORDER-RIGHT: #000000 1px solid;
+		BORDER-TOP: #000000 1px solid }
+
+
+.searchdrop 	{ WIDTH: 60PX; HEIGHT: 20PX; FONT: 11px arial, georgia, "Times New Roman", sans-serif }

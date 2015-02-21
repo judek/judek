@@ -1,0 +1,17 @@
+ <span class="title">Movie Clips</span>
+   
+   
+ <span class="smalltitle">Some fun movie clips</span>
+  <a href="movieshow.aspx?movie=KittyHill2.mp4">Kitty Hill</a>
+  <a href="movieshow.aspx?movie=Luggage.mp4">Luggage</a>
+  <a href="movieshow.aspx?movie=AuroraCold.mp4">Coldest Day in Aurora</a>
+  <a href="movieshow.aspx?movie=pump.mp4">Pump Up the Volume</a>
+  <a href="movieshow.aspx?movie=monster.mp4">The Monster Mash</a>
+  <a href="movieshow.aspx?movie=wipeoutshort.mp4">Wipe Out</a>
+  
+  
+  <span class="smalltitle">River Valley Community Chruch 2008 Slide Shows</span>
+  <a href="movieshow.aspx?movie=rvcc2008.mp4">Anniversary</a>
+  <a href="movieshow.aspx?movie=acsmi2007.mp4">ACS Mission Impossible</a>
+  <a href="movieshow.aspx?movie=rvccbaptisms2007.mp4">Baptisms</a>
+  <a href="movieshow.aspx?movie=rvccmotortrip2006.mp4">Motorcycle Trip</a>
