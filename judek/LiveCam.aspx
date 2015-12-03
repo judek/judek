@@ -17,13 +17,7 @@
    <span style="display: block !important; width: 320px; text-align: center; font-family: sans-serif; font-size: 12px;"><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:60543.1.99999&bannertypeclick=wu_clean2day" title="Oswego, Illinois Weather Forecast" target="_blank"><img src="http://weathersticker.wunderground.com/weathersticker/cgi-bin/banner/ban/wxBanner?bannertype=wu_clean2day_cond&airportcode=KARR&ForcedCity=Oswego&ForcedState=IL&zip=60543&language=EN" alt="Find more about Weather in Oswego, IL" width="300" /></a><br><a href="http://www.wunderground.com/cgi-bin/findweather/getForecast?query=zmw:60543.1.99999&bannertypeclick=wu_clean2day" title="Get latest Weather Forecast updates" style="font-family: sans-serif; font-size: 12px" target="_blank"></a></span>
    <br />
 <!-- COPY AND PASTE CODE BELOW TO MAKE A NEW PARAGRAPH --><br /><br />
-Back Patio<hr />
 
- <a href="GetLiveImage.aspx?id=5000" target="_blank">
-<asp:Image ID="ImageCam" runat="server" ImageUrl="GetLiveImage.aspx?w=640&h=360&id=5000"/><br /><br />
-</a> 
-
-<br />
 Driveway<hr />
 
  <a href="GetLiveImage.aspx?id=5002" target="_blank">
@@ -43,6 +37,27 @@ Where's Bootzie?<hr />
  <br />
 
 
+
+Inside Bootzie's house<hr />
+
+ <a href="GetLiveImage.aspx?id=5008" target="_blank">
+<asp:Image ID="Image4" runat="server" ImageUrl="GetLiveImage.aspx?w=640&h=360&id=5008"/><br /><br />
+</a> 
+
+
+ <br />
+
+
+Raccon Possum Cam<hr />
+
+ <a href="GetLiveImage.aspx?id=5010" target="_blank">
+<asp:Image ID="Image5" runat="server" ImageUrl="GetLiveImage.aspx?w=640&h=360&id=5010"/><br /><br />
+</a> 
+
+
+ <br />
+
+
 The Garage Door<hr />
 
  <a href="GetLiveImage.aspx?id=5006" target="_blank">
@@ -52,28 +67,13 @@ The Garage Door<hr />
 
  <br />
 
+Back Patio<hr />
 
-
-
-<%--Camera 5<hr />
-
- <a href="GetLiveImage.aspx?id=5008" target="_blank">
-<asp:Image ID="Image4" runat="server" ImageUrl="GetLiveImage.aspx?w=640&h=360&id=5008"/><br /><br />
+ <a href="GetLiveImage.aspx?id=5000" target="_blank">
+<asp:Image ID="ImageCam" runat="server" ImageUrl="GetLiveImage.aspx?w=640&h=360&id=5000"/><br /><br />
 </a> 
 
-
- <br />--%>
-
-
-Camera 6<hr />
-
- <a href="GetLiveImage.aspx?id=5010" target="_blank">
-<asp:Image ID="Image5" runat="server" ImageUrl="GetLiveImage.aspx?w=640&h=360&id=5010"/><br /><br />
-</a> 
-
-
- <br />
-
+<br />
 
   
 </td></tr></table>

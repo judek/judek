@@ -22,15 +22,6 @@ namespace judek {
         protected global::System.Web.UI.WebControls.Literal Literal1;
         
         /// <summary>
-        /// ImageCam control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image ImageCam;
-        
-        /// <summary>
         /// Image1 control.
         /// </summary>
         /// <remarks>
@@ -49,13 +40,13 @@ namespace judek {
         protected global::System.Web.UI.WebControls.Image Image2;
         
         /// <summary>
-        /// Image3 control.
+        /// Image4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image3;
+        protected global::System.Web.UI.WebControls.Image Image4;
         
         /// <summary>
         /// Image5 control.
@@ -65,5 +56,23 @@ namespace judek {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Image Image5;
+        
+        /// <summary>
+        /// Image3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image Image3;
+        
+        /// <summary>
+        /// ImageCam control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Image ImageCam;
     }
 }
