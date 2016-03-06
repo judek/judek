@@ -17,8 +17,10 @@ namespace judek
         }
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //For jude.com
             string filePath = Server.MapPath(@"../../iplogger/logs/31ashlawn.txt");
+
+            //For development on localhost
             //string filePath = Server.MapPath(@"31ashlawn.txt");
 
             string fileContents = File.ReadAllText(filePath);
@@ -29,9 +31,22 @@ namespace judek
             if (string.IsNullOrEmpty(CarmearID))
                 return;
 
-            
+            string password = "visiTor";
+
+            int nCameraId = 0;
+
+            if(false == int.TryParse(CarmearID, out nCameraId))
+            {
+                Response.Write("Cannot parse integer from CarmearID");
+                return;
+            }
+
+            if (nCameraId > 5010)
+                password = "visiTor!5";
+
+
             //string imageURL = "http://" + "24.1.52.32" + ":5000/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=visitor&pwd=visiTor";
-            string imageURL = "http://" + serverName + ":" + CarmearID + "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=visitor&pwd=visiTor";
+            string imageURL = "http://" + serverName + ":" + CarmearID + "/cgi-bin/CGIProxy.fcgi?cmd=snapPicture2&usr=visitor&pwd=" + password;
 
             CredentialCache credentialCache = new CredentialCache();
 
