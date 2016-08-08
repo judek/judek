@@ -18,10 +18,18 @@
    <br />
 <!-- COPY AND PASTE CODE BELOW TO MAKE A NEW PARAGRAPH --><br /><br />
 
-Driveway<hr />
+Driveway South East<hr />
 
  <a href="GetLiveImage.aspx?id=5014" target="_blank">
 <asp:Image ID="Image1" runat="server" ImageUrl="GetLiveImage.aspx?w=640&h=360&id=5014"/><br /><br />
+</a> 
+
+ <br />
+
+Driveway North East<hr />
+
+ <a href="GetLiveImage.aspx?id=5012" target="_blank">
+<asp:Image ID="Image6" runat="server" ImageUrl="GetLiveImage.aspx?w=640&h=360&id=5012"/><br /><br />
 </a> 
 
 
@@ -55,14 +63,7 @@ Raccon Possum Cam<hr />
 </a> 
 
 
- <br />
-
-Captain Jackie 1<hr />
-
- <a href="GetLiveImage.aspx?id=5012" target="_blank">
-<asp:Image ID="Image6" runat="server" ImageUrl="GetLiveImage.aspx?w=640&h=360&id=5012"/><br /><br />
-</a> 
-
+ 
 
  <%--<br />
 
