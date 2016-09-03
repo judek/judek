@@ -29,7 +29,23 @@ namespace judek
             
             string CarmearID = Request.QueryString["id"];
             if (string.IsNullOrEmpty(CarmearID))
+            {
+                try
+                {
+                    //Response.Write("Cannot parse integer from CarmearID");
+                    HttpWebRequest plainrequest = (HttpWebRequest)WebRequest.Create("http://www.aprsfl.net/cam/images-cam/image.jpg");
+                    using (HttpWebResponse plainResponse = (HttpWebResponse)plainrequest.GetResponse())
+                    {
+                        using (System.Drawing.Image plainImage = System.Drawing.Image.FromStream(plainResponse.GetResponseStream()))
+                        {
+                            Response.ContentType = "image/Jpeg";
+                            plainImage.Save(Response.OutputStream, System.Drawing.Imaging.ImageFormat.Jpeg);
+                        }
+                    }
+                }
+                catch { }
                 return;
+            }
 
             string password = "visiTor";
 
