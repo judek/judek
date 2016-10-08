@@ -137,8 +137,8 @@ namespace judek
                 //}
 
                 Response.ContentType = "image/Jpeg";
-                string filename = nCameraId + "_" + DateTime.Now.ToString("yyyyMMddHHmmss") + ".jpg";
-                Response.AddHeader("Content-Disposition", "attachment; filename=" + filename);
+                //string filename = nCameraId + "_" + DateTime.Now.ToString("yyyyMMddHHmmss") + ".jpg";
+                //Response.AddHeader("Content-Disposition", "attachment; filename=" + filename);
                 liveImage.Save(Response.OutputStream, System.Drawing.Imaging.ImageFormat.Jpeg);
 
             

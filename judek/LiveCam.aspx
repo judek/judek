@@ -107,9 +107,9 @@ Kitchen Counters<hr />
 
 New Port Richey Weather Cam<hr />
 
- <a href="http://www.aprsfl.net/cam/images-cam/image.jpg" target="_blank">
+ <!--<a href="http://www.aprsfl.net/cam/images-cam/image.jpg" target="_blank"> -->
 <asp:Image ID="Image8" runat="server" ImageUrl="GetLiveImage.aspx"/><br /><br />
-</a> 
+<!-- </a>  -->
 
 <br />
 
