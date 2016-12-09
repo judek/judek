@@ -103,6 +103,15 @@ Kitchen Counters<hr />
 <asp:Image ID="Image7" runat="server" ImageUrl="GetLiveImage.aspx?w=640&h=360&id=5016"/><br /><br />
 </a> 
 
+
+       <br />
+
+Master Bedroom<hr />
+
+ <a href="GetLiveImage.aspx?id=5018" target="_blank">
+<asp:Image ID="Image9" runat="server" ImageUrl="GetLiveImage.aspx?w=640&h=360&id=5018"/><br /><br />
+</a> 
+
 <br />
 
 New Port Richey Weather Cam<hr />
@@ -110,6 +119,16 @@ New Port Richey Weather Cam<hr />
  <!--<a href="http://www.aprsfl.net/cam/images-cam/image.jpg" target="_blank"> -->
 <asp:Image ID="Image8" runat="server" ImageUrl="GetLiveImage.aspx"/><br /><br />
 <!-- </a>  -->
+
+<br />
+
+ <br />
+
+USA Current Radar<hr />
+
+ <a href="http://images.intellicast.com/WxImages/Radar/usa.gif" target="_blank">
+<img src="http://images.intellicast.com/WxImages/Radar/usa.gif" alt="Current Radar" style="width:670px;" /><br /><br />
+</a>
 
 <br />
 
