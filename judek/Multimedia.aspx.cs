@@ -140,7 +140,7 @@ namespace judek
                 if (Request.QueryString["perma"] != null)
                 {
                     string permaFilter = Request.QueryString["perma"];
-                    DocumentList = DocumentList.FindAll(delegate(Document d)
+                    DocumentList = DocumentList.FindAll(delegate (Document d)
                     {
                         return ((d.Name.ToLower() == permaFilter.ToLower()));
                     });
@@ -155,7 +155,7 @@ namespace judek
                         int nYearFilter = Int32.Parse(MonthFilter.Substring(0, 4));
                         int nMonthFilter = Int32.Parse(MonthFilter.Substring(4, 2));
 
-                        DocumentList = DocumentList.FindAll(delegate(Document d)
+                        DocumentList = DocumentList.FindAll(delegate (Document d)
                         {
                             return ((d.Dated.Month == nMonthFilter) && (d.Dated.Year == nYearFilter));
                         });
@@ -167,7 +167,7 @@ namespace judek
                 {
                     string sTag = Request.QueryString["Tags"];
 
-                    DocumentList = DocumentList.FindAll(delegate(Document d)
+                    DocumentList = DocumentList.FindAll(delegate (Document d)
                     {
                         return d.Tags.HasTag(sTag);
                     });
@@ -175,8 +175,9 @@ namespace judek
 
                 }
                 else
+                {
                     ;//no filter
-
+                }
 
             }
             catch { }

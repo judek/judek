@@ -18,18 +18,20 @@
    <br />
 <!-- COPY AND PASTE CODE BELOW TO MAKE A NEW PARAGRAPH --><br /><br />
 
+<%string homeserverIP = GetHomeServerIP(@"31ashlawn"); %>
 Driveway South East<hr />
 
- <a href="GetLiveImage.aspx?id=5014" target="_blank">
-<asp:Image ID="Image1" runat="server" ImageUrl="GetLiveImage.aspx?w=640&h=360&id=5014"/><br /><br />
+ <a href="http://<%=homeserverIP%>/driveway1" target="_blank">
+<img src="http://<%=homeserverIP%>/driveway1" alt="driveway1" width="670" /><br /><br />
 </a> 
 
  <br />
 
 Driveway North East<hr />
 
- <a href="GetLiveImage.aspx?id=5012" target="_blank">
-<asp:Image ID="Image6" runat="server" ImageUrl="GetLiveImage.aspx?w=640&h=360&id=5012"/><br /><br />
+ <a href="http://<%=homeserverIP%>/driveway2" target="_blank">
+<img src="http://<%=homeserverIP%>/driveway2" alt="driveway2" width="670" /><br /><br />
+
 </a> 
 
 
@@ -37,8 +39,9 @@ Driveway North East<hr />
 
 Where's Bootzie?<hr />
 
- <a href="GetLiveImage.aspx?id=5004" target="_blank">
-<asp:Image ID="Image2" runat="server" ImageUrl="GetLiveImage.aspx?w=640&h=360&id=5004"/><br /><br />
+ <a href="http://<%=homeserverIP%>/bootzie" target="_blank">
+<img src="http://<%=homeserverIP%>/bootzie" alt="bootzie" width="670" /><br /><br />
+
 </a> 
 
 
@@ -48,8 +51,9 @@ Where's Bootzie?<hr />
 
 Inside Bootzie's house<hr />
 
- <a href="GetLiveImage.aspx?id=5008" target="_blank">
-<asp:Image ID="Image4" runat="server" ImageUrl="GetLiveImage.aspx?w=640&h=360&id=5008"/><br /><br />
+ <a href="http://<%=homeserverIP%>/bootziehouse" target="_blank">
+<img src="http://<%=homeserverIP%>/bootziehouse" alt="bootizehouse" width="670" /><br /><br />
+
 </a> 
 
 
@@ -58,8 +62,9 @@ Inside Bootzie's house<hr />
 
 Raccon Possum Cam<hr />
 
- <a href="GetLiveImage.aspx?id=5010" target="_blank">
-<asp:Image ID="Image5" runat="server" ImageUrl="GetLiveImage.aspx?w=640&h=360&id=5010"/><br /><br />
+ <a href="http://<%=homeserverIP%>/outdoor1" target="_blank">
+<img src="http://<%=homeserverIP%>/outdoor1" alt="outdoor" width="670" /><br /><br />
+
 </a> 
 
 
@@ -79,8 +84,8 @@ Captain Jackie 1<hr />
 
 The Garage Door<hr />
 
- <a href="GetLiveImage.aspx?id=5006" target="_blank">
-<asp:Image ID="Image3" runat="server" ImageUrl="GetLiveImage.aspx?w=640&h=360&id=5006"/><br /><br />
+ <a href="http://<%=homeserverIP%>/garage" target="_blank">
+<img src="http://<%=homeserverIP%>/garage" alt="garage" width="670" /><br /><br />
 </a> 
 
 
@@ -88,8 +93,9 @@ The Garage Door<hr />
 
 Back Patio<hr />
 
- <a href="GetLiveImage.aspx?id=5000" target="_blank">
-<asp:Image ID="ImageCam" runat="server" ImageUrl="GetLiveImage.aspx?w=640&h=360&id=5000"/><br /><br />
+ <a href="http://<%=homeserverIP%>/brad" target="_blank">
+<img src="http://<%=homeserverIP%>/brad" alt="brad" width="670" /><br /><br />
+
 </a> 
 
 <br />
@@ -99,8 +105,8 @@ Back Patio<hr />
 
 Kitchen Counters<hr />
 
- <a href="GetLiveImage.aspx?id=5016" target="_blank">
-<asp:Image ID="Image7" runat="server" ImageUrl="GetLiveImage.aspx?w=640&h=360&id=5016"/><br /><br />
+ <a href="http://<%=homeserverIP%>/kitchen" target="_blank">
+<img src="http://<%=homeserverIP%>/kitchen" alt="kitchen" width="670" /><br /><br />
 </a> 
 
 
@@ -108,8 +114,8 @@ Kitchen Counters<hr />
 
 Master Bedroom<hr />
 
- <a href="GetLiveImage.aspx?id=5018" target="_blank">
-<asp:Image ID="Image9" runat="server" ImageUrl="GetLiveImage.aspx?w=640&h=360&id=5018"/><br /><br />
+ <a href="http://<%=homeserverIP%>/bedroom" target="_blank">
+<img src="http://<%=homeserverIP%>/bedroom" alt="bedroom" width="670" /><br /><br />
 </a> 
 
 <br />
